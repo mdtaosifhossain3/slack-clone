@@ -5,7 +5,7 @@ import image from '../images/slacklogo.png';
 
 function SignIn() {
   //Sign In with Google
-  const [signInWithGoogle, user, loading] = useSignInWithGoogle(auth);
+  const [signInWithGoogle, loading] = useSignInWithGoogle(auth);
 
   //Submit Handler
   const submitHandler = () => {
